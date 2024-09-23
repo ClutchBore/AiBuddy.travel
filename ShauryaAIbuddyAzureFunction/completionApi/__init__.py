@@ -4,7 +4,7 @@ import azure.functions as func
 
 #sample request
 # {"model":"text-davinci-003", "prompt":"give me a slogan for rouse high school at leander isd in leander, tx", "max_tokens":200, "temperature":0}
-secret_key='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'
+secret_key='sk-DfGiHPjj9PjiUNoC87HGT3BlbkFJCoriWGpV9c9Om7'
 def main(req: func.HttpRequest) -> func.HttpResponse:
    
     logging.info('Python HTTP trigger function processed a request.')
